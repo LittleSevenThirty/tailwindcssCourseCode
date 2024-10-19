@@ -1,0 +1,16 @@
+{
+  "name": "lesson",
+  "version": "1.0.0",
+  "description": "lesson",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/style/style.css --watch",
+    "prettier": "npx prettier --write **/*.html"
+  },
+  "author": "LittleSevenThirty",
+  "license": "MIT",
+  "dependencies": {
+    "prettier-plugin-tailwindcss": "^0.6.8",
+    "tailwindcss": "^3.4.13"
+  }
+}
